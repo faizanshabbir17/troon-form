@@ -9,6 +9,7 @@ import Toast, { notfiFail, notifySuccess } from "./utils/Toast";
 import "bootstrap/dist/css/bootstrap.min.css";
 import useForm from "./utils/useForm";
 import saveForm from "./apis/save-form";
+import Footer from "./components/Footer";
 
 function App() {
   //initial state of form
@@ -212,6 +213,7 @@ function App() {
         blockChainTech={blockChainTech}
         loading={loading}
       />
+      <Footer />
     </>
   );
 }
