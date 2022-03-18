@@ -1,13 +1,131 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1366px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.headerRow {
+  align-items: center;
+  padding: 81px 0px;
+}
+
+.header {
+  background-color: #ebf7fd;
+}
+
+.mask-text h1 {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2f485c;
+}
+
+.mask-text-img {
+  margin-left: 25px;
+  background-image: url(./assets/maskTextImage.png);
+  -webkit-background-clip: text;
+}
+
+.ml {
+  margin-left: 49px;
+}
+
+.formRow {
+  justify-content: center;
+}
+
+.form-container h2 {
+  margin-top: 80px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #33396b;
+}
+
+.form-container .form-control {
+  padding: 20px 30px;
+  margin-top: 24px;
+}
+
+.form-section {
+  background: linear-gradient(
+    180deg,
+    rgba(235, 247, 253, 0.7) 30.73%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  background-blend-mode: multiply;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.checkboxes .input-group-text {
+  background: none;
+  border: none;
+  padding: 0px 8px 0px 0px;
+  display: inline-block;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.add-file {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 16px 32px;
+  max-width: 161px;
+  cursor: pointer;
+}
+
+.add-file p {
+  font-size: 15px;
+  line-height: 28px;
+  /* font-weight: 500; */
+  color: #637381;
+  margin: 0px 0px 0px 16px;
+}
+
+.btn-submit {
+  background: #ffcf00 !important;
+  border: 1px solid #ffcf00 !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px !important;
+  padding: 20px 60px !important;
+  font-family: "Gothic A1" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  line-height: 19px !important;
+  color: #33396b !important;
+}
+
+.btn-clear {
+  color: #00b7ff !important;
+  font-family: "Gothic A1" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  line-height: 19px !important;
+  background: transparent !important;
+  border: none !important;
+  margin-left: 205px !important;
 }
