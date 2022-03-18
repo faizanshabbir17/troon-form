@@ -3,7 +3,7 @@ import headerImage from "../assets/headerImage.svg";
 const Header = () => {
   return (
     <>
-      <section className="header">
+      <header className="header">
         <Container>
           <Row className="headerRow">
             <Col md={8}>
@@ -19,7 +19,7 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </header>
     </>
   );
 };

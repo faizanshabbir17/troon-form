@@ -9,6 +9,9 @@ import {
   FormControl,
 } from "react-bootstrap";
 import downloadSvg from "../assets/downloadSvg.svg";
+import arrowRight from "../assets/arrowRight.svg";
+import leftPolygon from "../assets/leftPolygon.png";
+import rightPolygon from "../assets/rightPolygon.png";
 const TroonForm = () => {
   const fileInput = useRef(null);
   const fileImage = useRef(null);
@@ -21,6 +24,8 @@ const TroonForm = () => {
   return (
     <>
       <section className="form-section">
+        <img className="polygonImg" src={leftPolygon} />
+        <img className="polygonImgRight" src={rightPolygon} />
         <Container>
           <Row className="formRow">
             <Col md={6}>
@@ -224,7 +229,7 @@ const TroonForm = () => {
                   </div>
                   <div className="mt-4">
                     <p>Please attach specification document</p>
-                    <div>
+                    <div className="mt-3">
                       <input
                         ref={fileInput}
                         type="file"
@@ -241,6 +246,9 @@ const TroonForm = () => {
                   <div className="mt-5 mb-5">
                     <Button className="btn-submit" type="submit">
                       Submit
+                      <span className="ml-16">
+                        <img src={arrowRight} />
+                      </span>
                     </Button>
                     <Button className="btn-clear" type="submit">
                       Clear Form
