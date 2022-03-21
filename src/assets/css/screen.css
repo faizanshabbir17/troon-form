@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;800&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;800&family=Open+Sans&display=swap");
+.bg-alice-blue {
+  background-color: #ebf7fd;
+}
+
+.form-bg {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30.73%, rgba(235, 247, 253, 0.7)), to(rgba(255, 255, 255, 0.7)));
+  background: linear-gradient(180deg, rgba(235, 247, 253, 0.7) 30.73%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+.bg-alice-blue {
+  background-color: #ebf7fd;
+}
+
+.form-bg {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30.73%, rgba(235, 247, 253, 0.7)), to(rgba(255, 255, 255, 0.7)));
+  background: linear-gradient(180deg, rgba(235, 247, 253, 0.7) 30.73%, rgba(255, 255, 255, 0.7) 100%);
+}
+
+.form-section {
+  position: relative;
+  background-blend-mode: multiply;
+}
+
+.header-row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 81px 0px;
+}
+
+.mask-text h1 {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2f485c;
+}
+
+.mask-img {
+  margin-left: 25px;
+  background-image: url(../images/maskTextImage.png);
+  background-size: contain;
+  background-position: center;
+  -webkit-background-clip: text;
+}
+/*# sourceMappingURL=screen.css.map */

@@ -8,9 +8,9 @@ import {
   InputGroup,
   FormControl,
 } from "react-bootstrap";
-import downloadSvg from "../assets/downloadSvg.svg";
-import leftPolygon from "../assets/leftPolygon.png";
-import rightPolygon from "../assets/rightPolygon.png";
+import downloadSvg from "../assets/images/downloadSvg.svg";
+import leftPolygon from "../assets/images/leftPolygon.png";
+import rightPolygon from "../assets/images/rightPolygon.png";
 
 //style
 import "./troonform.css";
@@ -40,7 +40,7 @@ const TroonForm = ({
   });
   return (
     <>
-      <section className="form-section">
+      <section className="form-bg form-section">
         <img className="polygonImg" src={leftPolygon} />
         <img className="polygonImgRight" src={rightPolygon} />
         <Container>

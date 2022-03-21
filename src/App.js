@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import useForm from "./utils/useForm";
 import saveForm from "./apis/save-form";
 import Footer from "./components/Footer";
+import "./assets/css/screen.css";
 
 function App() {
   //initial state of form

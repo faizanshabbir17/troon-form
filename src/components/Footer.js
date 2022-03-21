@@ -1,6 +1,6 @@
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/logo.svg";
-import arrowUp from "../assets/arrowUp.svg";
+import logo from "../assets/images/logo.svg";
+import arrowUp from "../assets/images/arrowUp.svg";
 import { ArrowUp } from "../helper/Svgs";
 const Footer = () => {
   return (

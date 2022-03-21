@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;800&family=Open+Sans&display=swap");
+
+//Colors
+$aliceBlue: #ebf7fd;
+$arapawa: #2f485c;
+$toreaBay: #33396b;
+$lynch: #637381;
+$deepSkyBlue: #00b7ff;
+$white: #ffff;
+$white55: rgba(255, 255, 255, 0.55);
+$lightGray: #e5e5e4;
+$gradient: linear-gradient(
+  180deg,
+  rgba(235, 247, 253, 0.7) 30.73%,
+  rgba(255, 255, 255, 0.7) 100%
+);
+
+//Font Family
+$gothicA1: "Gothic A1", sans-serif;
+$proximaNova: "ProximaNova-Bold";
+
+//Font Sizes
+$primary-fs: 15px;
+$secondary-fs: 13px;
+$tertiary-fs: 12px;
+
+$h1-font-size: 68px;
+$h2-font-size: 32px;
+
+//Classes for Background & Colors
+.bg-alice-blue {
+  background-color: $aliceBlue;
+}
+.form-bg {
+  background: $gradient;
+}
+
