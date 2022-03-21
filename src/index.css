@@ -127,6 +127,11 @@ p {
   margin-top: 24px;
 }
 
+.form-container .form-control:focus {
+  box-shadow: none;
+  border-color: black;
+}
+
 .form-section {
   position: relative;
   background: linear-gradient(
@@ -152,6 +157,7 @@ p {
 .add-file {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #ffffff;
   border: 1px solid #e5e5e4;
   box-sizing: border-box;

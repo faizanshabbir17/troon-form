@@ -57,7 +57,7 @@ const TroonForm = ({
                     placeholder="Name *"
                     onChange={handleChange}
                     value={form?.name}
-                    className="invalid_form"
+                    className="form-field"
                   />
                   {showErr && error.name && (
                     <Form.Control.Feedback
@@ -73,6 +73,7 @@ const TroonForm = ({
                     placeholder="Company Name"
                     onChange={handleChange}
                     value={form?.companyName}
+                    className="form-field"
                   />
                   {showErr && error?.companyName && (
                     <Form.Control.Feedback
@@ -88,6 +89,7 @@ const TroonForm = ({
                     placeholder="Company LinkedIn"
                     onChange={handleChange}
                     value={form?.linkedInUrl}
+                    className="form-field"
                   />
                   {showErr && error?.linkedInUrl && (
                     <Form.Control.Feedback
@@ -103,6 +105,7 @@ const TroonForm = ({
                     placeholder="Website"
                     onChange={handleChange}
                     value={form?.websiteUrl}
+                    className="form-field"
                   />
                   {showErr && error?.websiteUrl && (
                     <Form.Control.Feedback
@@ -118,6 +121,7 @@ const TroonForm = ({
                     placeholder="Email"
                     onChange={handleChange}
                     value={form?.email}
+                    className="form-field"
                   />
                   {showErr && error?.email && (
                     <Form.Control.Feedback
