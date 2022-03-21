@@ -1,6 +1,7 @@
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/logo.svg";
 import arrowUp from "../assets/arrowUp.svg";
+import { ArrowUp } from "../helper/Svgs";
 const Footer = () => {
   return (
     <>
@@ -52,7 +53,7 @@ const Footer = () => {
           <div className="align-center mt-44">
             <p>© 2019 Troon. All rights reserved.</p>
             <a href="">
-              <img src={arrowUp} />
+              <ArrowUp />
             </a>
           </div>
         </Container>

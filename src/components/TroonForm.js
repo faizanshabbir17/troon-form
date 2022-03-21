@@ -9,7 +9,6 @@ import {
   FormControl,
 } from "react-bootstrap";
 import downloadSvg from "../assets/downloadSvg.svg";
-import arrowRight from "../assets/arrowRight.svg";
 import leftPolygon from "../assets/leftPolygon.png";
 import rightPolygon from "../assets/rightPolygon.png";
 const TroonForm = () => {
@@ -246,9 +245,6 @@ const TroonForm = () => {
                   <div className="mt-5 mb-5">
                     <Button className="btn-submit" type="submit">
                       Submit
-                      <span className="ml-16">
-                        <img src={arrowRight} />
-                      </span>
                     </Button>
                     <Button className="btn-clear" type="submit">
                       Clear Form

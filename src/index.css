@@ -31,13 +31,30 @@
   content: "\e900";
   color: rgba(255, 255, 255, 0.55);
 }
+
+.icon-facebook:hover::before {
+  content: "\e900";
+  color: #ffff;
+}
+
 .icon-linkedIn:before {
   content: "\e901";
   color: rgba(255, 255, 255, 0.55);
 }
+
+.icon-linkedIn:hover::before {
+  content: "\e901";
+  color: #ffff;
+}
+
 .icon-twitter:before {
   content: "\e902";
   color: rgba(255, 255, 255, 0.55);
+}
+
+.icon-twitter:hover::before {
+  content: "\e902";
+  color: #ffff;
 }
 
 body {
@@ -167,6 +184,23 @@ p {
   color: #33396b !important;
 }
 
+.btn-submit::after {
+  content: url(../src/assets/arrowRight.svg);
+  position: relative;
+  top: 2px;
+  left: 14px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-submit:hover:after {
+  left: 20px;
+}
+
+.btn-submit:hover {
+  box-shadow: none !important;
+}
+
 .btn-clear {
   color: #00b7ff !important;
   font-family: "Gothic A1" !important;
@@ -254,4 +288,8 @@ p {
   position: absolute;
   right: 0;
   bottom: 10%;
+}
+
+.arrow-up:hover path {
+  stroke-opacity: 1;
 }
