@@ -68,6 +68,12 @@ const TroonForm = ({
                     </Form.Control.Feedback>
                   )}
                   <Form.Control
+                    type="text"
+                    name="name"
+                    placeholder="Last Name *"
+                    className="form-field"
+                  />
+                  <Form.Control
                     name="companyName"
                     type="text"
                     placeholder="Company Name"
